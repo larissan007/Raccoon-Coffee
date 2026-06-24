@@ -1,25 +1,26 @@
 *{
 margin:0;
 padding:0;
+box-sizing: border-box;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background:#f8f5f0;
+    background:rgb(248, 245, 240);
 }
 
 header{
     display:flex;
-    justify-content:space-between;
     align-items:center;
     padding:20px 80px;
     background:white;
 }
 .logo img{
-    width: 30%;
+    width: 40%;
 }
 .menu{
     display:flex;
-    gap:20px;
+    gap: 30px;
+    padding-left: 60%;
 }
 
 .menu a{
@@ -42,7 +43,7 @@ header{
 }
 
 .botao{
-    background:#d4b28c;
+    background:rgb(212, 178, 140);
     color:white;
     padding:10px 20px;
     text-decoration:none;
@@ -61,7 +62,7 @@ header{
 }
 
 .card{
-    flex:1;
+    width: 60%;
     text-align: center;
 }
 
@@ -71,7 +72,7 @@ header{
 }
 
 footer{
-    background:#1f1a15;
+    background:rgb(31, 26, 21);
     color:white;
     text-align:center;
     padding:40px;
