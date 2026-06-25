@@ -12,34 +12,33 @@ header{
     display:flex;
     align-items:center;
     padding:20px 80px;
-    background:white;
+    background:rgba(247, 220, 164, 0.637);
 }
 .logo img{
     width: 40%;
 }
 .menu{
-    display:flex;
-    gap: 30px;
     padding-left: 60%;
 }
 
 .menu a{
     text-decoration:none;
-    color:#4a3a2a;
+    color:#795736;
 }
 
-.hero{
-    background:#352d26;
+section{
+    background:rgb(53, 45, 38);
     color:white;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:80px;
+    padding:60px;
 }
 
-.hero img{
-    width:60%;
-    border-radius: 20px;
+section img{
+    width:49%;
+    border-radius: 15px;
+    margin-left: 250px;
 }
 
 .botao{
@@ -48,12 +47,10 @@ header{
     padding:10px 20px;
     text-decoration:none;
 }
-
 .botao2{
     border:1px solid white;
     color:white;
     padding:10px 20px;
-    text-decoration:none;
 }
 
 .cards{
@@ -64,11 +61,46 @@ header{
 .card{
     width: 60%;
     text-align: center;
+    color: rgb(73, 49, 26);
 }
 
 .card img{
     width:60%;
     border-radius: 20px;
+}
+
+.sobre{
+    background: rgb(53, 45, 38);
+    color: white;
+    align-items: center;
+    padding:90px;
+}
+.cabeça{
+    background-color:rgb(63, 31, 9);
+    color:rgb(250, 229, 204);
+}
+.linha{
+    background-color:rgb(143, 76, 32);
+    color:beige;
+    font-size: 15px;
+}
+.proxima{
+    background-color:rgb(229, 189, 155);
+    font-size: 15px;
+}
+.cardapio{
+    background: rgb(255, 255, 255);
+    align-items: center;
+    padding:80px;
+}
+.cardapio h2{
+    color: #422b13;
+}
+.lista{
+    background: rgb(247, 220, 164, 0.637);
+    color: rgb(73, 49, 26);
+    align-items: center;
+    padding:80px;
 }
 
 footer{
