@@ -19,18 +19,19 @@ header{
 }
 .menu{
     padding-left: 60%;
+    gap: 20px;
+    display: flex;
 }
 
 .menu a{
     text-decoration:none;
-    color:#795736;
+    color:#795736; 
 }
 
 section{
     background:rgb(53, 45, 38);
     color:white;
     display:flex;
-    justify-content:space-between;
     align-items:center;
     padding:60px;
 }
@@ -69,11 +70,17 @@ section img{
     border-radius: 20px;
 }
 
+
 .sobre{
     background: rgb(53, 45, 38);
     color: white;
     align-items: center;
     padding:90px;
+}
+table{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 60px;
 }
 .cabeça{
     background-color:rgb(63, 31, 9);
@@ -82,11 +89,10 @@ section img{
 .linha{
     background-color:rgb(143, 76, 32);
     color:beige;
-    font-size: 15px;
+    
 }
 .proxima{
     background-color:rgb(229, 189, 155);
-    font-size: 15px;
 }
 .cardapio{
     background: rgb(255, 255, 255);
@@ -112,7 +118,6 @@ footer{
 .redes{
     text-align:center;
 }
-
 .redes img{
     width:30px;
     margin:10px;
