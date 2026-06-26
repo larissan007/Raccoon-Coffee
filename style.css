@@ -17,44 +17,39 @@ header{
 .logo img{
     width: 40%;
 }
-.menu{
+.comeco{
     display: flex;
     margin-right: 60px;
 }
 
-.menu a{
+.comeco a{
     text-decoration:none;
-    color:#795736; 
+    color:rgb(121, 87, 54); 
     margin-right:60px;
 }
 
 
 section{
-    background:rgb(211, 177, 147);
     color:white;
     display:flex;
     align-items:center;
-    padding:60px;
     background-image: url("img/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 400px;
+    padding: 250px;
 }
 .texto h1{
     margin: 0 auto;
 }
 
 .texto p{
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 .botao{
     background:rgb(212, 178, 140);
     color:white;
     padding:10px 20px;
     text-decoration:none;
-    
-    transition: transform 0.3s ease;
-    animation: pulse 1.8s ease-in-out infinite;
 }
 
 .botao:hover{
@@ -75,6 +70,7 @@ section{
 }
 .cards h2{
     color:rgb(90, 60, 25);
+    font-size: 30px;
 }
 
 .card{
@@ -88,12 +84,7 @@ section{
     width:60%;
     border-radius: 20px;
     margin-bottom:15px;
-    transition: transform 0.3s ease;
     
-}
-
-.card:hover img{
-    transform: scale(1.08);
 }
 
 .card h3{
@@ -109,34 +100,38 @@ section{
     padding:100px;
 }
 
-table{
-    background:white;
-    border-radius:15px;
-    padding:15px;
-    text-align: justify;
-}
+
 .cardapio{
-    background: rgb(255, 255, 255);
-    align-items: center;
-    padding:80px;
+    padding:50px;
 }
 .cardapio h2{
     color: #422b13;
-}
-.cabeça{
-    background-color:rgb(63, 31, 9);
-    color:rgb(250, 229, 204);
     text-align: center;
+    font-size: 30px;
 }
-
-tr{
-    border-bottom:1px solid #6e5e4a;
+.menu{
+    width: 50%;
+    margin: 0 auto 50px;
+    border: 1px solid rgb(227, 208, 181);
+    box-shadow: 10px 5px 10px 2px rgba(95, 62, 28, 0.12);
 }
-
+table{
+    width: 100%;
+    background: white;
+}
+th{
+    background: rgb(111, 67, 32);
+    color: rgb(255, 247, 233);
+    text-align: left;
+    font-size: 18px;
+    padding: 14px 18px;
+}
 td{
-    background:white;
+    padding: 14px 18px;
+    color: rgb(97, 68, 26); 
+    font-size: 17px;    
+    border-bottom: 1px solid rgb(239, 226, 206);                                                      
 }
-
 
 .lista{
     background: rgb(247, 220, 164, 0.637);
