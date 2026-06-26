@@ -18,30 +18,35 @@ header{
     width: 40%;
 }
 .menu{
-    padding-left: 60%;
-    gap: 20px;
     display: flex;
+    margin-right: 60px;
 }
 
 .menu a{
     text-decoration:none;
     color:#795736; 
+    margin-right:60px;
 }
 
+
 section{
-    background:rgb(53, 45, 38);
+    background:rgb(211, 177, 147);
     color:white;
     display:flex;
     align-items:center;
     padding:60px;
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px;
+}
+.texto h1{
+    margin: 0 auto;
 }
 
-section img{
-    width:49%;
-    border-radius: 15px;
-    margin-left: 250px;
+.texto p{
+    margin-bottom:15px;
 }
-
 .botao{
     background:rgb(212, 178, 140);
     color:white;
@@ -54,20 +59,33 @@ section img{
     padding:10px 20px;
 }
 
+
 .cards{
     display:flex;
-    padding:60px;
+    padding:100px;
+    color: rgba(85, 60, 34, 0.63);
+}
+.cards h2{
+    color:rgb(90, 60, 25);
 }
 
 .card{
     width: 60%;
     text-align: center;
-    color: rgb(73, 49, 26);
+    margin-bottom:15px;
+    
 }
 
 .card img{
     width:60%;
     border-radius: 20px;
+    margin-bottom:15px;
+    
+}
+
+.card h3{
+    margin-bottom:10px;
+    color: rgb(87, 50, 13);
 }
 
 
@@ -75,24 +93,14 @@ section img{
     background: rgb(53, 45, 38);
     color: white;
     align-items: center;
-    padding:90px;
+    padding:100px;
 }
+
 table{
-    text-align: center;
-    font-size: 15px;
-    margin-left: 60px;
-}
-.cabeça{
-    background-color:rgb(63, 31, 9);
-    color:rgb(250, 229, 204);
-}
-.linha{
-    background-color:rgb(143, 76, 32);
-    color:beige;
-    
-}
-.proxima{
-    background-color:rgb(229, 189, 155);
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    text-align: justify;
 }
 .cardapio{
     background: rgb(255, 255, 255);
@@ -102,12 +110,28 @@ table{
 .cardapio h2{
     color: #422b13;
 }
+.cabeça{
+    background-color:rgb(63, 31, 9);
+    color:rgb(250, 229, 204);
+    text-align: center;
+}
+
+tr{
+    border-bottom:1px solid #6e5e4a;
+}
+
+td{
+    background:white;
+}
+
+
 .lista{
     background: rgb(247, 220, 164, 0.637);
     color: rgb(73, 49, 26);
     align-items: center;
-    padding:80px;
+    padding:90px;
 }
+
 
 footer{
     background:rgb(31, 26, 21);
