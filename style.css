@@ -12,7 +12,7 @@ header{
     display:flex;
     align-items:center;
     padding:20px 80px;
-    background:rgba(247, 220, 164, 0.637);
+    background:rgb(252, 239, 215);
 }
 .logo img{
     width: 50%;
@@ -40,10 +40,12 @@ section{
 }
 .texto h1{
     margin: 0 auto;
+    font-size: 50px;
 }
 
 .texto p{
     margin-bottom:20px;
+    
 }
 .botao{
     background:rgb(212, 178, 140);
@@ -105,7 +107,7 @@ section{
     padding:50px;
 }
 .cardapio h2{
-    color: #422b13;
+    color: rgb(66, 43, 19);
     text-align: center;
     font-size: 30px;
 }
@@ -120,7 +122,7 @@ table{
     background: white;
 }
 th{
-    background: rgb(111, 67, 32);
+    background: rgb(75, 42, 16);
     color: rgb(255, 247, 233);
     text-align: left;
     font-size: 18px;
@@ -134,7 +136,7 @@ td{
 }
 
 .lista{
-    background: rgb(247, 220, 164, 0.637);
+    background: rgb(252, 239, 215);
     color: rgb(73, 49, 26);
     align-items: center;
     padding:90px;
