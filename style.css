@@ -12,24 +12,24 @@ header{
     display:flex;
     align-items:center;
     padding:20px 80px;
-    background:rgb(252, 239, 215);
+    background:rgb(252, 237, 215);
 }
 .logo img{
     width: 50%;
 }
-.comeco{
+.topo{
     display: flex;
     margin-right: 60px;
 }
 
-.comeco a{
+.topo a{
     text-decoration:none;
     color:rgb(121, 87, 54); 
     margin-right:60px;
 }
 
 
-section{
+.comeco{
     color:white;
     display:flex;
     align-items:center;
@@ -45,13 +45,14 @@ section{
 
 .texto p{
     margin-bottom:20px;
+    font-size: 25px;
     
 }
 .botao{
     background:rgb(212, 178, 140);
     color:white;
-    padding:10px 20px;
-    text-decoration:none;
+    padding:10px 30px;
+    text-decoration:none;   
 }
 
 .botao:hover{
@@ -61,7 +62,7 @@ section{
 .botao2{
     border:1px solid white;
     color:white;
-    padding:10px 20px;
+    padding:10px 30px;
 }
 
 
@@ -136,7 +137,7 @@ td{
 }
 
 .lista{
-    background: rgb(252, 239, 215);
+    background: rgb(252, 237, 215);
     color: rgb(73, 49, 26);
     align-items: center;
     padding:90px;
@@ -147,7 +148,7 @@ footer{
     background:rgb(31, 26, 21);
     color:white;
     text-align:center;
-    padding:40px;
+    padding:60px;
 }
 .redes{
     text-align:center;
