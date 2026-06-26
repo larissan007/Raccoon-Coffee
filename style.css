@@ -52,7 +52,15 @@ section{
     color:white;
     padding:10px 20px;
     text-decoration:none;
+    
+    transition: transform 0.3s ease;
+    animation: pulse 1.8s ease-in-out infinite;
 }
+
+.botao:hover{
+    background: rgb(190, 150, 110);
+}
+
 .botao2{
     border:1px solid white;
     color:white;
@@ -80,7 +88,12 @@ section{
     width:60%;
     border-radius: 20px;
     margin-bottom:15px;
+    transition: transform 0.3s ease;
     
+}
+
+.card:hover img{
+    transform: scale(1.08);
 }
 
 .card h3{
