@@ -36,7 +36,7 @@ header{
     background-image: url("img/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 250px;
+    padding: 200px;
 }
 .texto h1{
     margin: 0 auto;
@@ -111,23 +111,21 @@ header{
     color: rgb(66, 43, 19);
     text-align: center;
     font-size: 30px;
-}
-.menu{
-    width: 50%;
-    margin: 0 auto 50px;
-    border: 1px solid rgb(227, 208, 181);
-    box-shadow: 10px 5px 10px 2px rgba(95, 62, 28, 0.12);
+
 }
 table{
-    width: 100%;
+    width: 50%;
     background: white;
+    margin: 0 auto 50px;
+    border: 1px solid rgba(161, 119, 60, 0.411);
+    box-shadow: 10px 5px 10px 2px rgba(95, 62, 28, 0.12);
 }
 th{
     background: rgb(75, 42, 16);
     color: rgb(255, 247, 233);
     text-align: left;
     font-size: 18px;
-    padding: 14px 18px;
+    padding: 16px 18px;
 }
 td{
     padding: 14px 18px;
@@ -141,6 +139,7 @@ td{
     color: rgb(73, 49, 26);
     align-items: center;
     padding:90px;
+    
 }
 
 
@@ -152,6 +151,7 @@ footer{
 }
 .redes{
     text-align:center;
+    margin: 20px;
 }
 .redes img{
     width:30px;
